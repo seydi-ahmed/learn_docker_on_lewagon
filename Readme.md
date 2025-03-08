@@ -31,5 +31,13 @@ dockerfile (docker build)---> image (docker run)---> container <---(http) code
 - dockerfile
 - docker-compose.yml
 
+## Les conteneurs Docker ne sont pas complètement isolés par défaut. Ils peuvent communiquer entre eux et avec d'autres services via :
+
+- ✅ Les réseaux Docker (bridge, host, overlay, etc.) pour permettre aux conteneurs de se parler.
+- ✅ Les volumes pour partager des fichiers entre plusieurs conteneurs.
+- ✅ Les ports exposés (-p 8080:80) pour permettre l'accès depuis l'extérieur.
+- ✅ Docker Compose (networks, depends_on) pour orchestrer la communication entre plusieurs services.
+- Cependant, si nécessaire, on peut renforcer leur isolation en désactivant les réseaux ou en utilisant des modes restrictifs comme none. 🔒
+
 ## link:
 https://start.lewagon.com/
