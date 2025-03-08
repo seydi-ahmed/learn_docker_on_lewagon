@@ -10,5 +10,14 @@
 - isolates the container on the rest of the machine environment
 - multiple containers can be run on a single machine
 
+## who do you need containers
+scalability
+- easily deploy to many servers with no extra configuration needded
+- handle all trafic without incurring costs on unused servers
+- reduce downtime for your project
+
+## how do we create a container
+
+
 ## link:
 https://start.lewagon.com/
