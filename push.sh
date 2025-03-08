@@ -1,3 +1,3 @@
 git add .
-git commit -m "a why"
+git commit -m "a who"
 git push
