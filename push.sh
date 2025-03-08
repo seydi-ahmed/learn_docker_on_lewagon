@@ -1,3 +1,3 @@
 git add .
-git commit -m "a who"
+git commit -m "a first question"
 git push

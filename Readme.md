@@ -17,7 +17,19 @@ scalability
 - reduce downtime for your project
 
 ## how do we create a container
+dockerfile (docker build)---> image (docker run)---> container <---(http) code
 
+## un conteneur Docker inclut
+1) notre code
+- l'application que nous voulons exécuter
+2) l'environnement nécessaire pour éxécuter notre code
+- le systéme d'exploitation de base
+- les dépendances
+- les bibliothéques
+- les configurations requises
+3) les instructions pour éxécuter notre code
+- dockerfile
+- docker-compose.yml
 
 ## link:
 https://start.lewagon.com/
